@@ -1,34 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Perkyz Learning
 
-## Getting Started
+Embark on an educational adventure like never before with Perkyz Learning. This dynamic platform leverages the power of Next.js, React, Tailwind CSS, UploadThing, MuxHQ, Clerk, Prisma, and PlanetScale to revolutionize your learning experience. Seamlessly authenticate with Clerk, explore a vast array of courses, and track your progress with precision. Engage with multimedia-rich content and enjoy uninterrupted video playback with MuxHQ. Discover a new era of learning with Perkyz.
 
-First, run the development server:
+## Introduction
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Welcome to Perkyz Learning, a transformative online learning platform that harnesses the power of Next.js, React, Tailwind CSS, UploadThing, MuxHQ, Clerk, Prisma, and PlanetScale. With a user-friendly authentication system through Clerk, Perkyz Learning provides an immersive educational environment for both students and teachers. Whether you're here to explore courses or create and manage them, our platform offers a seamless experience. Transactions are securely handled through Stripe. Dive into a diverse range of courses, track your progress, and interact with a variety of multimedia elements for an enriched learning journey.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Functionality
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Mark chapters completed or uncompleted.
+- Purchase courses using Stripe.
+- Student and Teacher dashboard.
+- Upload thumbnails using UploadtThing.
+- Video processing and HLS Video player using MUX Studio
+- Authentication using Clerk.
+- Rich text editor.
+- Designed with Tailwind CSS & Shadcn UI.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[Live Demo](https://perkyz-learning.vercel.app/)
